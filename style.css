@@ -1,0 +1,121 @@
+        body{background-color:#111827;
+             color:white;
+             font-size:20px;
+            }
+        a:link{background-color:none;
+               color:orangered;
+               font-style:italic; 
+               text-decoration:none;
+              }
+        a:hover{background-color:none;
+                color:aqua;
+                text-decoration:underline;
+               }
+        a:visited{color:orangered;}
+        nav{display:flex;
+            justify-content:right;
+            gap:60px;
+           }
+        nav a{background-color:none;
+              color:#111827;
+              text-decoration:none;
+             }
+        nav a:hover{background-color:none;
+                    color:red;
+                    text-decoration:underline;
+                   }
+        nav a:active{background-color:none;
+                     color:blue;
+                     text-decoration:none;
+                    }
+        .navigation{background-color:white;}
+        .Joel{color:aqua;}
+        .Mwololo{color:aqua;}
+        .Njeri{color:aqua;}
+        .Home{display:flex;
+              justify-content:space-between;
+              align-items:center;
+              gap:50px;
+             }
+        .Home-content{flex:1;font-size:14px;}
+        .Home-image{display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    flex:1;
+                    margin:5px;
+                   }
+        .Home-image img{height:450px;
+                    width:400px;
+                    Border:none;
+                    object-fit:fill;
+                    border-radius:40px;
+                    transition:transforms 0.2s ease;
+                    transform-style:preserve-3d;
+                   }
+        .Skills{display:flex;
+                flex:1;
+                gap:20px;
+               }
+        .Skillscontent{border:2px solid white;
+                       border-radius:40px;
+                       padding:35px;
+                       font-size:medium;
+                       height:120px;
+                       width:120px;
+                      }    
+        .Project{display:flex;
+                 flex:1;
+                 gap:20px;
+                 flex-wrap:wrap;
+                } 
+        .Projectcontent{flex:1;}     
+        .Projectimage{display:flex;
+                      align-items:center;
+                      gap:30px;  
+                      flex-direction:column;
+                     }  
+        .Projectimage img{ border:1px solid white;
+                          border-radius:30px;
+                          object-fit:cover;
+                          height:500px;
+                          width:400px;
+                         } 
+        .Projectimage p{margin-top:10px; text;align:center;}
+        .Experience{display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                    gap:30px;
+                   }
+        .Experiencecontent{flex:1}
+        .Experiencetext{display:flex;
+                        justify-content:none;
+                        align-items:center;
+                        gap:100px;
+                       }
+        .Experiencetext ol{border:2px solid white;
+                          border-radius:30px;
+                          font-size:14px;
+                          font-family:cooper black;
+                          margin:5px;
+                          padding:35px;
+                          } 
+      .Contact-item{display:flex;
+               align-items:center;
+               gap:30px;
+               margin-bottom:15px;
+              }
+      .Contact-item{object-fit:contain;}
+      .Contact-details h3{margin:0 0 5px 0; font-size:20px;}
+      .Contact-details p{margin:0; font-size:15px;}
+      .Footer{display:flex;
+              flex:1;
+              align-items:center;
+              gap:100px;
+             }
+      .Footercontent{flex:1;}
+      .Footertext{display:flex;
+                  flex:1;
+                  align-items:center;
+                  gap:20px;
+                 }
+      
